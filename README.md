@@ -1,4 +1,5 @@
  Name: Ranjan K
+
  Reg.No:212222230116
 
 # Experiment-02 Implementation of combinational logic
