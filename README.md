@@ -1,5 +1,5 @@
- Name: O.sirisha Reddy
- Reg.No:212222230103
+ Name: Ranjan K
+ Reg.No:212222230116
 
 # Experiment-02 Implementation of combinational logic
 ## AIM:
@@ -36,28 +36,29 @@ An OR gate is a fundamental digital logic gate that performs a logical disjuncti
 6.Give the respective inputs for timing diagram and obtain the results.
 ## Program:
 ```
-Developed by:O.Sirisha Reddy
-RegisterNumber:  212222230103
-module DE2(a,b,c,d,f1);
-input a,b,c,d;
-output f1;
+Name         : Ranjan K
+Register No. :212222230116
+module EX02(A,B,C,D,F1);
+input A,B,C,D;
+output F1;
 wire x1,x2,x3,x4,x5;
-assign x1=(~a)&(~b)&(~c)&(~d);
-assign x2=(a)&(~c)&(~d);
-assign x3=(~b)&(c)&(~d);
-assign x4=(~a)&(b)&(c)&(d);
-assign x5=(b)&(~c)&(d);
-assign f1=x1|x2|x3|x4|x5;
-endmodule
+assign x1 = (~A) & (~B) & (~C) & (~D);
+assign x2 = (A) & (~C) & (~D);
+assign x3 = (~B) & (C) & (~D);
+assign x4 = (~A) & (B) & (C) & (D);
+assign x5 = (B) & (~C) & (D);
+assign F1 = x1 | x2 | x3 | x4 | x5;
 ```
 ## RTL:
-![d1](https://github.com/Thenmozhi-Palanisamy/Experiment--02-Implementation-of-combinational-logic-/assets/95198708/5ab2c60f-4580-4390-8c83-3c47e830b49c)
+![WhatsApp Image 2023-08-26 at 09 57 36](https://github.com/Ranjanranjan/Experiment--02-Implementation-of-combinational-logic-/assets/130027697/92781469-d662-4b68-931a-f37fc5040c35)
+
 
 ## Truth table
 ![image](https://github.com/Thenmozhi-Palanisamy/Experiment--02-Implementation-of-combinational-logic-/assets/95198708/b280551a-f504-449b-8050-3c61de9a5b15)
 
 ## output waveform
-![f3](https://github.com/Thenmozhi-Palanisamy/Experiment--02-Implementation-of-combinational-logic-/assets/95198708/b4739a63-7d76-4783-9926-cea462a51185)
+
+![WhatsApp Image 2023-08-26 at 09 53 01](https://github.com/Ranjanranjan/Experiment--02-Implementation-of-combinational-logic-/assets/130027697/31ce2c03-a9a2-466b-a56f-f3869ff84f2d)
 
 
 
